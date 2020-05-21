@@ -1,4 +1,7 @@
 # 掩日 - 免杀执行器生成工具
+
+1.0 beta版本 bug 太多，不建议用😂，可以等2.0
+
 用于生成免杀的EXE可执行文件/AV evasion
 
 [点此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/)编译好的最新版本。
