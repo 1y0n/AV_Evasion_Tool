@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="128" height="128" src="https://sec-note.oss-cn-beijing.aliyuncs.com/trojan.ico">
+  <img width="100" height="100" src="https://sec-note.oss-cn-beijing.aliyuncs.com/trojan.ico">
 </p>
 
 
@@ -8,7 +8,7 @@
 
 **2.0 版本开发完成，正在测试~**
 
-用于生成免杀的EXE可执行文件/AV evasion
+用于生成免杀的EXE可执行文件
 
 [点此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/)编译好的最新版本。
 
