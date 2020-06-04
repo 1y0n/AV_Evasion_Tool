@@ -6,9 +6,7 @@
 
 <h1 align="center"> 掩日 2.0 - Advanced AV Evasion Tool For Red Team.</h1>
 
-**2.0 版本开发完成，正在测试~**
-
-用于生成免杀的EXE可执行文件
+用于生成免杀的EXE可执行文件。有账号的可以考虑点个⭐
 
 ## 环境安装
 2.0 依赖：
@@ -43,7 +41,7 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/cce858a5c99f6909f32a839a0b02975.png)
 
 ## 更新
-暂无计划。
+忙完 HW 可能会更新···吧，想关注更新的话可以点 Star 旁边的 Watch 。
 
 ## 引用
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
