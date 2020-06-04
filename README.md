@@ -39,6 +39,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 首先选择目标系统是 32位还是 64位，然后选择使用的语言（推荐C），接着选择执行方式，如果选择注入到现有进程，需要提供进程 PID，如果选择注入新进程，需要提供启动的进程名。虚拟机/沙箱、图标这里按心情设置。最后粘贴你的 shellcode 到最下方的输入框。点击生成按钮。
 
+### 效果
+![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/cce858a5c99f6909f32a839a0b02975.png)
+
 ## 更新
 暂无计划。
 
