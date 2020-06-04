@@ -30,7 +30,7 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604232812.png)
 
-输入 IP:端口 ，例如 127.0.0.1：4444 ，选择目标系统是 32位还是 64位。然后点击生成即可。
+输入 IP:端口 ，例如 127.0.0.1:4444 ，选择目标系统是 32位还是 64位。然后点击生成即可。
 
 ### 进阶模式
 点击生成按钮旁边的 进阶 ，即可使用进阶模式。
@@ -44,6 +44,7 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 引用
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
+
 2.0版本修改使用了很多网络代码，因为各种转载，来源已不可考，在此表示感谢❤。
 
 ## 提示
