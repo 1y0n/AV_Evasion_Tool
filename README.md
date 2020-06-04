@@ -1,6 +1,12 @@
-# 掩日 - 免杀执行器生成工具
+<p align="center">
+  <img width="128" height="128" src="https://sec-note.oss-cn-beijing.aliyuncs.com/trojan.ico">
+</p>
 
-**1.0 beta版本 bug 太多，不建议用😂，可以等2.0**
+
+
+<h1 align="center"> 掩日 2.0 - Advanced AV Evasion Tool For Red Team.</h1>
+
+**2.0 版本开发完成，正在测试~**
 
 用于生成免杀的EXE可执行文件/AV evasion
 
