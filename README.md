@@ -17,7 +17,7 @@
 3. tdm-gcc
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，
-下载并安装，完成后，新建一个cmd窗口，输入 `gcc -version` ，出现以下效果即说明成功：
+下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，出现以下效果即说明成功：
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604232603.png)
 
