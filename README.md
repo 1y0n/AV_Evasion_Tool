@@ -13,6 +13,7 @@
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) legal disclaimer: Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
+你可以[在此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/2.0)编译好的exe（MD5：408AAA8BA08C06CECE13181C40B83B81）。
 
 ## 环境安装
 2.0 依赖：
