@@ -8,6 +8,12 @@
 
 用于生成免杀的EXE可执行文件。有账号的可以考虑点个⭐
 
+## 声明
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 仅限用于技术研究和获得正式授权的测试活动。
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) legal disclaimer: Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+
+
 ## 环境安装
 2.0 依赖：
 1. 64位 Windows 操作系统
@@ -36,6 +42,8 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604233042.png)
 
 首先选择目标系统是 32位还是 64位，然后选择使用的语言（推荐C），接着选择执行方式，如果选择注入到现有进程，需要提供进程 PID，如果选择注入新进程，需要提供启动的进程名。虚拟机/沙箱、图标这里按心情设置。最后粘贴你的 shellcode 到最下方的输入框。点击生成按钮。
+
+**在测试的时候发现使用语言为 C，执行方式为 执行1 时会出现一些莫名其妙的问题，所以更推荐 执行2**
 
 ### 效果
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/cce858a5c99f6909f32a839a0b02975.png)
