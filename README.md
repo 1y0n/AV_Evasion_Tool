@@ -13,7 +13,7 @@
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) legal disclaimer: Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-你可以[在此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/2.0)编译好的exe（MD5：408AAA8BA08C06CECE13181C40B83B81）。
+你可以[在此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/2.1)编译好的exe。
 
 ## 环境安装
 2.0 依赖：
@@ -50,7 +50,12 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/cce858a5c99f6909f32a839a0b02975.png)
 
 ## 更新
-忙完 HW 可能会更新···吧，想关注更新的话可以点 Star 旁边的 Watch 。
+v2.1 2020年9月1日
+  1. 现在每次异或的key都会随机生成了；
+  2. 部分细节更新。
+
+
+想关注更新的话可以点 Star 旁边的 Watch 。
 
 ## 引用
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
