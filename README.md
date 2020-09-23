@@ -4,7 +4,7 @@
 
 
 
-<h1 align="center"> 掩日 2.0 - Advanced AV Evasion Tool For Red Team.</h1>
+<h1 align="center"> 掩日 - Advanced AV Evasion Tool For Red Team Ops</h1>
 
 用于生成免杀的EXE可执行文件。有账号的可以考虑点个⭐
 
@@ -13,12 +13,14 @@
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) legal disclaimer: Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
+## 下载
+
 你可以[在此下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/2.1)编译好的exe。
 
-## 环境安装
+## 依赖
 2.0 依赖：
-1. 64位 Windows 操作系统
-2. .net framework 4.0+(Windows 自带)
+1. 64位 Windows 7、8、10 操作系统
+2. .net framework 4.0或更高版本 (Windows 自带)
 3. tdm-gcc
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，
@@ -26,7 +28,7 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604232603.png)
 
-## 使用说明
+## 使用
 
 **生成路径中不要包含中文，否则很可能生成失败**
 
@@ -61,7 +63,4 @@ v2.1 2020年9月1日
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
 
 2.0版本修改使用了很多网络代码，因为各种转载，来源已不可考，在此表示感谢❤。
-
-## 提示
-因为是 C# 编写的程序，同时公开了源码，所以免杀会很快失效，且用且珍惜🤪。
 
