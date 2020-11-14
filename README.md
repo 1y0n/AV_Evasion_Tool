@@ -30,9 +30,12 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 使用
 
-**生成路径中不要包含中文，否则很可能生成失败**
+**生成路径中尽量不要包含中文，否则可能生成失败**
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3.gif)
+
+处理 exe 文件也是一样的：
+![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3_exe.gif)
 
 ## 更新
 v3.0 2020年11月14日
