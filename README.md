@@ -63,5 +63,4 @@ v2.1 2020年9月1日
 
 ## 赞助
 如果这个工具对你有用，就请我喝杯奶茶吧。赞助请留言你的微信号😉
-![](https://sec-note.oss-cn-beijing.aliyuncs.com/643d108733dc560d6430c1e307d5de2.png)
 
