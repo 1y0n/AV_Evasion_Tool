@@ -30,6 +30,10 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 使用
 
+生成过程中请关闭所有的杀毒软件（包括 Windows Defender），否则很可能生成失败！！！（生成完成后正常开启即可）
+
+64位免杀效果远好于32位，能用64尽量用64。
+
 **生成路径中尽量不要包含中文，否则可能生成失败**
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3.gif)
