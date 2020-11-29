@@ -15,7 +15,7 @@
 
 ## 下载
 
-**3.0目前有bug，导致生成不成功。请先使用2.0版本，3.0预计下周末（2020.11.21）修复bug后上线。**
+**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0_beta2.zip)**
 
 ## 依赖
 3.0 依赖：
@@ -23,7 +23,7 @@
 2. .net framework 4.0 或更高版本 (Windows 自带)
 3. tdm-gcc
 
-tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，
+tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，双击运行，选择 CREATE，然后一直“下一步”即可。
 下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，出现以下效果即说明成功：
 
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604232603.png)
@@ -38,6 +38,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 ![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3_exe.gif)
 
 ## 更新
+v3.0beta2 2020年11月29日
+  1. 修复了找不到 dll 的问题
+
 v3.0 2020年11月14日
   1. 更易于使用
   2. 理论上更好的免杀效果😂
