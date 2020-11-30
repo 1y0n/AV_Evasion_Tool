@@ -36,10 +36,10 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 **生成路径中尽量不要包含中文，否则可能生成失败**
 
-![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3.gif)
+![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3.gif)
 
 处理 exe 文件也是一样的：
-![](https://sec-note.oss-cn-beijing.aliyuncs.com/yr3_exe.gif)
+![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3_exe.gif)
 
 ## 更新
 v3.0beta2 2020年11月29日
@@ -63,4 +63,4 @@ v2.1 2020年9月1日
 
 ## 赞助
 如果这个工具对你有用，就请我喝杯奶茶吧。赞助请留言你的微信号😉
-![](https://sec-note.oss-cn-beijing.aliyuncs.com/643d108733dc560d6430c1e307d5de2.png?a=a)
+![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/donate.png)
