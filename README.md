@@ -41,6 +41,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 处理 exe 文件也是一样的：
 ![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3_exe.gif)
 
+## 反馈
+反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
+
 ## 更新
 v3.0beta2 2020年11月29日
   1. 修复了找不到 dll 的问题
@@ -66,5 +69,5 @@ v2.1 2020年9月1日
 3.0版本基于TheWover,Odzhan 的 Donut 项目，他们的技术水平及开源精神令人敬佩。3.0只是在他们的基础上做了一点微小的图形化工作。
 
 ## 赞助
-如果这个工具对你有用，就请我喝杯奶茶吧。赞助请留言你的微信号😉
+如果这个工具对你有用，就请我喝杯奶茶吧。赞助请留言你的微信号，可以更早获得更新（但是新版本一般不稳定，bug很多）😉
 ![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/donate.png)
