@@ -15,7 +15,11 @@
 
 ## 下载
 
-**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0_beta3.zip)**
+**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
+**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
+**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
+
+别再问我 git clone 以后怎么用了！！！ 你不从我给的地址下载就没法用！！！
 
 ## 依赖
 3.0 依赖：
@@ -41,14 +45,17 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 处理 exe 文件也是一样的：
 ![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3_exe.gif)
 
+如果你添加了自定义密码，那么就执行的时候在后面加密码就可以了，比如： xxx.exe 1234
+
 ## 反馈
 反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
 
 ## 更新
-v3.0beta3 2020年12月29日
+v3.0RC 2020年12月29日
   1. 新年快乐！
   2. 修复了一个严重bug
   3. 免杀效果优化
+  4. 支持自定义密码
 
 v3.0beta2 2020年11月29日
   1. 修复了找不到 dll 的问题
@@ -63,8 +70,7 @@ v2.1 2020年9月1日
   2. 部分细节更新。
 
 ## TODO
-1. 自定义启动密码（100%防逆向&沙箱）
-2. cobalt strike 插件
+1. cobalt strike 插件
 
 ## 引用
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
