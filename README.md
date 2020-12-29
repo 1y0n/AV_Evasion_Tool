@@ -15,7 +15,7 @@
 
 ## 下载
 
-**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0_beta2.zip)**
+**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0_beta3.zip)**
 
 ## 依赖
 3.0 依赖：
@@ -45,6 +45,11 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
 
 ## 更新
+v3.0beta3 2020年12月29日
+  1. 新年快乐！
+  2. 修复了一个严重bug
+  3. 免杀效果优化
+
 v3.0beta2 2020年11月29日
   1. 修复了找不到 dll 的问题
 
