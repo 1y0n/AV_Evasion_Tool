@@ -15,11 +15,7 @@
 
 ## 下载
 
-**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
-**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
-**[3.0下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.0/3.0RC.zip)**
-
-别再问我 git clone 以后怎么用了！！！ 你不从我给的地址下载就没法用！！！
+**[3.1.2下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.1.2/3.1.2.zip)**
 
 ## 依赖
 3.0 依赖：
@@ -51,6 +47,11 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
 
 ## 更新
+v3.1.2 2021年2月6日
+  1. 免杀效果优化
+  2. 现在用户可以自行决定要不要隐藏窗口
+  3. 由于算法原因，免杀的exe运行时，会进入一个很长很长的解密阶段，大概需要几分钟，解密后可以正常运行
+
 v3.0RC 2020年12月29日
   1. 新年快乐！
   2. 修复了一个严重bug
