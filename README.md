@@ -47,6 +47,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
 
 ## 更新
+
+**在一些特殊情况下，新版本的免杀效果不一定好，此时可尝试在 release 页面下载旧版本**
+
 v3.1.2 2021年2月6日
   1. 免杀效果优化
   2. 现在用户可以自行决定要不要隐藏窗口
