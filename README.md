@@ -18,7 +18,7 @@
 **[3.1.2下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.1.2/3.1.2.zip)**
 
 ## 依赖
-3.0 依赖：
+3.x 依赖：
 1. 64位 Windows 7、8、10 操作系统
 2. .net framework 4.0 或更高版本 (Windows 自带)
 3. tdm-gcc
@@ -42,9 +42,6 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 ![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3_exe.gif)
 
 如果你添加了自定义密码，那么就执行的时候在后面加密码就可以了，比如： xxx.exe 1234
-
-## 反馈
-反馈请提交issue。如果是被杀了，请[在此留言](https://github.com/1y0n/AV_Evasion_Tool/issues/20)
 
 ## 更新
 
@@ -72,9 +69,6 @@ v3.0 2020年11月14日
 v2.1 2020年9月1日
   1. 现在每次异或的key都会随机生成了；
   2. 部分细节更新。
-
-## TODO
-1. cobalt strike 插件
 
 ## 引用
 1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
