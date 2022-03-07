@@ -2,6 +2,9 @@
   <img width="100" height="100" src="https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/2021.ico">
 </p>
 
+<p align="center">
+  <img width="374" height="50" src="https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/xred.team.png">
+</p>
 
 
 <h1 align="center">掩日 - 适用于红队的综合免杀工具</h1>
