@@ -1,27 +1,29 @@
 <p align="center">
-  <img width="100" height="100" src="https://sec-note.oss-cn-beijing.aliyuncs.com/trojan.ico">
+  <img width="100" height="100" src="https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/2021.ico">
 </p>
 
 
 
-<h1 align="center"> 掩日 - Advanced AV Evasion Tool For Red Team Ops</h1>
+<h1 align="center">掩日 - 适用于红队的综合免杀工具</h1>
 
-用于快速生成免杀的 EXE 可执行文件。
 
 ## 声明
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 仅限用于技术研究和获得正式授权的测试活动。
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) legal disclaimer: Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+1. 仅限用于技术研究和获得正式授权的测试活动！
+2. 工作繁忙、水平低下、精力有限、时间仓促，代码未经过大量测试，如发现问题请提交 issue。
 
 ## 下载
 
-**[3.1.2下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/3.1.2/3.1.2.zip)**
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220204/20220204.zip)
+
+[备用下载](http://download.xred.team/yanri.zip)
 
 ## 依赖
-3.x 依赖：
-1. 64位 Windows 7、8、10 操作系统
+如果使用工具的全部功能，请确保满足以下全部条件：
+1. 64位 Windows 7 或以上操作系统
 2. .net framework 4.0 或更高版本 (Windows 自带)
-3. tdm-gcc
+3. 安装 tdm-gcc
+4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，双击运行，选择 CREATE，然后一直“下一步”即可。
 下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，出现以下效果即说明成功：
@@ -30,22 +32,19 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 使用
 
-生成过程中请关闭所有的杀毒软件（包括 Windows Defender），否则很可能生成失败！！！（生成完成后正常开启即可）
+**生成路径中不要包含中文，并且生成过程中尽量关闭所有的杀毒软件，否则会生成失败！**
 
-64位免杀效果远好于32位，能用64尽量用64。
-
-**生成路径中尽量不要包含中文，否则可能生成失败**
-
-![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3.gif)
-
-处理 exe 文件也是一样的：
-![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/yr3_exe.gif)
-
-如果你添加了自定义密码，那么就执行的时候在后面加密码就可以了，比如： xxx.exe 1234
+64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
 
 ## 更新
 
-**在一些特殊情况下，新版本的免杀效果不一定好，此时可尝试在 release 页面下载旧版本**
+v20220204 2022年3月7日
+  1. 全新的界面
+  2. 支持 Go 语言
+  3. 支持本地分离
+  4. 支持网络分离
+  5. 杀软对比功能
+  6. 更新检测功能
 
 v3.1.2 2021年2月6日
   1. 免杀效果优化
@@ -71,12 +70,10 @@ v2.1 2020年9月1日
   2. 部分细节更新。
 
 ## 引用
-1.0版本参考了 Avitor 的结构。使用了 DotNetToJscript 的代码。部分代码参考了网络资料。
-
-2.0版本修改使用了很多网络代码，因为各种转载，来源已不可考，在此表示感谢❤。
-
-3.0版本基于TheWover,Odzhan 的 Donut 项目，他们的技术水平及开源精神令人敬佩。3.0只是在他们的基础上做了一点微小的图形化工作。
-
-## 赞助
-如果这个工具对你有用，就请我喝杯奶茶吧。赞助请留言你的微信号，可以更早获得更新（但是新版本一般不稳定，bug很多）😉
-![](https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/donate.png)
+感谢以下优秀项目/文章/网站，本工具修改和使用了其中的代码、资源或思路：
+  1. Dount (https://github.com/TheWover/donut)
+  2. avList (https://github.com/gh0stkey/avList)
+  3. Go编译-race参数实现VT全免杀 - liwp1929
+  4. goShellCodeByPassVT (https://github.com/fcre1938/goShellCodeByPassVT)
+  5. HandyControls (https://github.com/HandyOrg/HandyControl)
+  6. flaticon (https://www.flaticon.com)
