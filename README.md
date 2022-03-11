@@ -41,6 +41,10 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 更新
 
+v20220311 2022年3月11日
+  1. bug修复
+  2. 使用C语言生成的程序体积减小90%
+
 v20220204 2022年3月7日
   1. 全新的界面
   2. 支持 Go 语言
