@@ -17,7 +17,7 @@
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220311/20220311.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220325/20220325.zip)
 
 [备用下载](http://download.xred.team/yanri.zip)
 
@@ -40,6 +40,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
 
 ## 更新
+
+v20220325 2022年3月25日
+  1. bug修复（感谢@Tas9er反馈）
 
 v20220311 2022年3月11日
   1. bug修复
