@@ -14,7 +14,6 @@
 
 1. 仅限用于技术研究和获得正式授权的测试活动！
 2. 工作繁忙、水平低下、精力有限、时间仓促，代码未经过大量测试，如发现问题请提交 issue。
-3. 针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。
 
 ## 下载
 
@@ -39,6 +38,8 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 **生成路径中不要包含中文，并且生成过程中尽量关闭所有的杀毒软件，否则会生成失败！**
 
 64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
+
+**针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
 
 ## 更新
 
