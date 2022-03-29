@@ -43,7 +43,7 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 
 ## 更新
 
-v20220329 2022年3月29日
+v20220329 2022年3月29日 
   1.bug修复（感谢@1191569886反馈）
 
 v20220325 2022年3月25日
