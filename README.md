@@ -17,7 +17,7 @@
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220329/20220329.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220419/20220419.zip)
 
 [备用下载](http://download.xred.team/yanri.zip)
 
@@ -42,6 +42,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
 
 ## 更新
+v20220419 2022年4月19日
+  1. 免杀效果优化
+
 v20220329 2022年3月29日
   1. bug修复（感谢@1191569886反馈）
 
