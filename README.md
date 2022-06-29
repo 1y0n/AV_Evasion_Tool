@@ -18,7 +18,7 @@
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220419/20220419.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20220629/20220629.zip)
 
 [备用下载](http://download.xred.team/yanri.zip)
 
