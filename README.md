@@ -43,6 +43,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
 
 ## 更新
+v20220629 2022年6月29日
+  1. 优化某杀软误报问题
+
 v20220419 2022年4月19日
   1. 免杀效果优化
 
