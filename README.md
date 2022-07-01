@@ -25,7 +25,9 @@
 ## 依赖
 如果使用工具的全部功能，请确保满足以下全部条件：
 1. 64位 Windows 7 或以上操作系统
-2. .net framework 4.0 或更高版本 (Windows 自带)
+
+**.net framework 4.8 或更高版本**
+
 3. 安装 tdm-gcc
 4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
 
