@@ -26,7 +26,7 @@
 如果使用工具的全部功能，请确保满足以下全部条件：
 1. 64位 Windows 7 或以上操作系统
 
-**.net framework 4.8 或更高版本**
+**.net framework 4.5 或更高版本**
 
 3. 安装 tdm-gcc
 4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
@@ -45,6 +45,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
 
 ## 更新
+v20220801 2022年8月1日
+  1. 效果优化
+
 v20220629 2022年6月29日
   1. 优化某杀软误报问题
 
