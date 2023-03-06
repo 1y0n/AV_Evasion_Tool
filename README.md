@@ -32,9 +32,7 @@
 4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，双击运行，选择 CREATE，然后一直“下一步”即可。
-下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，出现以下效果即说明成功：
-
-![](https://sec-note.oss-cn-beijing.aliyuncs.com/img/20200604232603.png)
+下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，能够正常显示版本号即说明成功.
 
 ## 使用
 
@@ -43,8 +41,14 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
 
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
-![](https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-1.jpg)
-![](https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-2.jpg)
+
+<p align="center">
+  <img width="374" height="50" src="https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-1.jpg">
+</p>
+
+<p align="center">
+  <img width="374" height="50" src="https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-2.jpg">
+</p>
 
 ## 更新
 v20230303 2023年3月3日
