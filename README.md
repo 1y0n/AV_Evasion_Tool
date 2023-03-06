@@ -43,6 +43,8 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
 
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
+![](https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-1.jpg)
+![](https://raw.githubusercontent.com/1y0n/AV_Evasion_Tool/master/images/step-2.jpg)
 
 ## 更新
 v20230303 2023年3月3日
@@ -82,7 +84,6 @@ v20220204 2022年3月7日
 感谢以下优秀项目/文章/网站，本工具修改和使用了其中的代码、资源或思路：
   1. Dount (https://github.com/TheWover/donut)
   2. avList (https://github.com/gh0stkey/avList)
-  3. Go编译-race参数实现VT全免杀 - liwp1929
-  4. goShellCodeByPassVT (https://github.com/fcre1938/goShellCodeByPassVT)
-  5. HandyControls (https://github.com/HandyOrg/HandyControl)
-  6. flaticon (https://www.flaticon.com)
+  3. goShellCodeByPassVT (https://github.com/fcre1938/goShellCodeByPassVT)
+  4. HandyControls (https://github.com/HandyOrg/HandyControl)
+  5. flaticon (https://www.flaticon.com)
