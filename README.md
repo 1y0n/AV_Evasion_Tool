@@ -22,7 +22,7 @@
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/20230303/20230303.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/20230303/20230329.zip)
 
 [备用下载](http://download.xred.team/yanri.zip)
 
@@ -34,7 +34,7 @@
 4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，双击运行，选择 CREATE，然后一直“下一步”即可。
-下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，能够正常显示版本号即说明成功。
+下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，能够正常显示版本号即说明成功。如果安装成功还是提示出错，需要在环境变量里把tdm-gcc移动到最前面。
 
 ## 使用
 
@@ -53,6 +53,10 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 </p>
 
 ## 更新
+v20230329 2023年3月29日
+  1. 效果优化
+  2. 修复识别杀软时卡死问题
+
 v20230303 2023年3月3日
   1. 效果优化
 
