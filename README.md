@@ -22,9 +22,7 @@
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/tag/20230303/20230329.zip)
-
-[备用下载](http://download.xred.team/yanri.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20230417/20230417.zip)
 
 ## 依赖
 如果使用工具的全部功能，请确保满足以下全部条件：
