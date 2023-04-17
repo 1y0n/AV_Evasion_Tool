@@ -53,6 +53,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 </p>
 
 ## 更新
+v20230417 2023年4月17日
+  1. 效果优化
+
 v20230329 2023年3月29日
   1. 效果优化
   2. 修复识别杀软时卡死问题
