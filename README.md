@@ -15,14 +15,12 @@
 1. 仅限用于技术研究和获得正式授权的测试活动！
 2. 工作繁忙、水平低下、精力有限、时间仓促，代码未经过大量测试，如发现问题请提交 issue。
 3. 主程序已被部分杀软标记，请添加到杀软白名单。
-4. issue很少看，想聊可以加（备注github）
-<p>
-  <img width="281" height="381" src="https://github.com/1y0n/AV_Evasion_Tool/blob/master/images/6885f8e2548b84f0def32b8bf3d412d.jpg">
-</p>
+4. issue很少看
+
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20230417/20230417.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20230823/20230823.zip)
 
 ## 依赖
 如果使用工具的全部功能，请确保满足以下全部条件：
@@ -51,6 +49,9 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 </p>
 
 ## 更新
+v20230823 2023年8月23日
+  1. 效果优化
+
 v20230417 2023年4月17日
   1. 效果优化
 
