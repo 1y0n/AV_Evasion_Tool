@@ -15,28 +15,42 @@
 1. 仅限用于技术研究和获得正式授权的测试活动！
 2. 工作繁忙、水平低下、精力有限、时间仓促，代码未经过大量测试，如发现问题请提交 issue。
 3. 主程序已被部分杀软标记，请添加到杀软白名单。
-4. issue很少看
+4. 测试的CS版本为4.4，测试的系统版本为Windows 10/11、Server 2008，其他版本自行测试。
 
 
 ## 下载
 
-[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20230823/20230823.zip)
+[Github 下载](https://github.com/1y0n/AV_Evasion_Tool/releases/download/20231208/20231208.zip)
 
 ## 依赖
 如果使用工具的全部功能，请确保满足以下全部条件：
 1. 64位 Windows 7 或以上操作系统
 2. .net framework 4.5 或更高版本
-3. 安装 tdm-gcc
-4. 安装 [64位 Go 语言环境](https://go.dev/dl/go1.17.8.windows-amd64.msi)，并添加到系统环境变量
+3. 安装 tdm-gcc 或者 tcc 
+4. 可选：安装64位 Go 语言环境
 
 tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2.0-tdm64-1/tdm64-gcc-9.2.0.exe)，双击运行，选择 CREATE，然后一直“下一步”即可。
-下载并安装，完成后，新建一个cmd窗口，输入 `gcc --version` ，能够正常显示版本号即说明成功。如果安装成功还是提示出错，需要在环境变量里把tdm-gcc移动到最前面。
+
+tcc[下载地址](http://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27-win64-bin.zip)，这个不需要安装，解压到任意目录即可（目录不要包含中文字符）。
 
 ## 使用
+程序现在不会自动检测编译器了，而是使用了 YRconfig.ini 。在正式使用前，你需要更改这个文件的内容。格式参考如下：
 
-**生成路径中不要包含中文和空格，并且生成过程中尽量关闭所有的杀毒软件，否则会生成失败！**
+-----------
 
-64位免杀效果远好于32位，能用64尽量用64（注意对应的 shellcode 也需要是64位）。
+[compiler]
+
+GCC="C:\TDM-GCC-64\bin\gcc.exe"
+
+GO="C:\Go\bin\go.exe"
+
+-----------
+
+将对应 gcc.exe 和 go.exe 的路径替换成你自己的，然后重启主程序就可以使用了。
+
+自20231208版本之后，你可以自己选择c编译器：tdm-gcc 或者 tcc。tcc 生成的体积更小（实测7kb，使用upx可以压到5kb以内），但是不支持自定义程序图标。
+
+**生成路径中不要包含中文和空格，否则会生成失败！**
 
 **针对Cobalt Strike，不要选择生成Windows分阶段木马、Windows无阶段木马，而是生成payload，最终是一个payload.c文件。**
 
@@ -49,6 +63,10 @@ tdm-gcc[下载地址](https://github.com/jmeubank/tdm-gcc/releases/download/v9.2
 </p>
 
 ## 更新
+v20231208 2023年12月08日
+  1. 效果优化
+  2. 现在可以自由选择tdm-gcc或者tcc生成loader
+
 v20230823 2023年8月23日
   1. 效果优化
 
